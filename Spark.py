@@ -12,8 +12,8 @@ movies_df = spark.read \
     .format("jdbc") \
     .option("url", "jdbc:postgresql://localhost:5432/etl_pipeline") \
     .option("dbtable", "movies") \
-    .option("user", "arifazhan") \
-    .option("password", "arifazhan80") \
+    .option("user", "your_name") \
+    .option("password", "your_password") \
     .option("driver", "org.postgresql.Driver") \
     .load()
 
