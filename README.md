@@ -1,6 +1,6 @@
 # ETL Pipeline Project
 
-This repository demonstrates an ETL (Extract, Transform, Load) pipeline built using Apache Airflow and Apache Spark, extracting data from PostgreSQL, transforming it using Spark, and loading it back into the database. It serves as a hands-on demonstration of modern data engineering practices.
+This project demonstrates the implementation of a complete ETL (Extract, Transform, Load) pipeline, combining the power of Apache Airflow for workflow orchestration, Apache Spark for distributed data processing, and PostgreSQL for data storage and management. The pipeline showcases the end-to-end process of extracting raw data, transforming it for analysis, and loading it back into a database for use in downstream applications.
 
 ## Project Structure
 <img width="651" alt="Screenshot 2025-01-06 at 2 37 49 AM" src="https://github.com/user-attachments/assets/556dc737-c78f-4f7a-9e6d-0276927a4263" />
